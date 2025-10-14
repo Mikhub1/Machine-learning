@@ -1,0 +1,5 @@
+row,kernel,C,gamma,degree,coef0,epsilon,tol,max_iter,Train_RMSE,Val_RMSE,Train_R2,Val_R2,Comment
+2,rbf,1.0,0.05,,,0.1,0.0001,-1,86994.0048,91447.7445,0.8548,0.8523,good generalization
+3,poly,1.0,0.05,3.0,0.0,0.1,0.0001,5000,92845.4019,102600.8511,0.8346,0.814,overfitting
+1,linear,0.1,,,,0.05,0.001,-1,119496.0702,123316.8912,0.7261,0.7313,good generalization
+4,sigmoid,1.0,0.05,,0.1,0.05,0.0001,1000,1246357.481,1119924.9003,-28.7995,-21.158,good generalization
